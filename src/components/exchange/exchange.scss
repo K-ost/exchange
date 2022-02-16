@@ -1,0 +1,43 @@
+
+/* exchange */
+.exchange {
+  background: #fbfbfb;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 0 20px;
+  &_title {font-weight: 700; margin: 0 0 15px;}
+}
+/* forms */
+.form-field {
+  display: flex;
+  .input {margin-right: 8px; width: 100%;}
+  select {min-width: 80px; max-width: 80px;}
+}
+
+.input, select {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+  border: 1px solid #ededed;
+  border-radius: 6px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 9px 14px;
+  outline: none;
+}
+
+.input {
+  &:focus {
+    border-color: #3f3f3f;
+  }
+}
+select {
+  background: #fff url(../../assets/chevron.svg) calc(100% - 10px) center no-repeat;
+  background-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+}
